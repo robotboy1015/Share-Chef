@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
+      <link type="text/css" rel="stylesheet" href="css/site.css"  media="screen,projection"/>
+      
+      
+    </head>
+
+
+    <body>
+    	
+    	<div class="row container">
+    		<div class="col s6">
+    			<h2  id="header" onclick="clickMe()">Click Me</h2>
+    		</div>
+    		
+    		<div class="col s6">
+    		<a class="waves-effect waves-light btn" onclick="improveHeader()">Improve that header!</a>
+    		</div>
+    	</div>
+    	
+    	
+    	
+    	<div class="divider green"></div>
+		<table>
+	        <thead>
+	          <tr>
+	              <th data-field="id">Name</th>
+	              <th data-field="name">Phone Number</th>
+	          </tr>
+	        </thead>
+	
+	        <tbody>
+	          <tr>
+	            <td id="call1">Nathan</td>
+	            <td>837-458-4789</td>
+	          </tr>
+	          <tr>
+	            <td id="call2">Alan</td>
+	            <td>523-456-9654</td>
+	           
+	          </tr>
+	          <tr>
+	            <td id="call3">Jonathan</td>
+	            <td>957-963-4587</td>
+	            
+	          </tr>
+	        </tbody>
+      	</table>
+    	
+		<a class="waves-effect waves-light btn" onclick="btnCall1()">Call Nathan</a>
+		<a class="waves-effect waves-light btn" onclick="btnCall2()">Call Alan</a>
+		<a class="waves-effect waves-light btn" onclick="btnCall3()">Call Jonathan</a>
+		<br />
+		<br />
+		<a class="waves-effect waves-light btn" onclick="logConsole()">Log Console</a>
+		<a class="waves-effect waves-light btn" onclick="addLog()">Add to log</a>
+    	
+    
+    	
+    	
+    	
+    	
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/site.js"></script>
+    </body>
+  </html>
+        
